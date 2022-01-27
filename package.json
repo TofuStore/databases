@@ -12,7 +12,8 @@
     "start": "node ./server/app.js",
     "start:es6": "npx babel-node ./server/app.js",
     "test": "jest",
-    "lint": "eslint ./"
+    "lint": "eslint ./",
+    "dev": "nodemon ./server/app.js"
   },
   "dependencies": {
     "axios": "^0.21.0",
@@ -20,6 +21,7 @@
     "express": "4.17.1",
     "morgan": "^1.10.0",
     "mysql2": "^2.2.5",
+    "nodemon": "^2.0.15",
     "sequelize": "^6.3.5"
   },
   "devDependencies": {
@@ -37,4 +39,3 @@
     "verbose": true
   }
 }
-
